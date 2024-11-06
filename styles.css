@@ -24,7 +24,7 @@ body {
   position: relative;
   width: 100%;
   max-width: 400px;
-  aspect-ratio: 400 / 230; /* 保持宽高比 */
+  aspect-ratio: 400 / 230;
   border-radius: 15px;
   overflow: hidden;
   color: var(--card-text-color);
@@ -101,7 +101,6 @@ body {
   background-color: var(--card-text-color);
   color: #333;
 }
-
 
 @media (max-width: 600px) {
   .card-content h2 {
